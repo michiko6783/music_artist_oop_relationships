@@ -19,12 +19,8 @@ function Song(title, artist) {
 //   // You'll probably want to do that in here somewhere...
 }
 
-// Artist.prototype.getSongCount = function() {
-//   return this.songs.length;
-// }
-
-Artist.prototype.addSong = function(song) {
-  this.song.push(song)
+Artist.prototype.getSongCount = function() {
+  return this.songs.length;
 }
 
 // // This is how we should be able to use your constructor functions once they work!
